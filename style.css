@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h2 {
+ padding-top:3rem;
+}
+
+p {
+  padding: 1rem;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.fade {
+  opacity: 0;
+}
+
+.spin {
+  transform: rotate(0deg);
+  transition: transform 2s;
+}
+
+.color {
+  background-color: orange;
+}
+
+.line {
+  background-color: #0093E9;
+  width: 0;
+}
+
+.slide-in{
+    opacity:0;
+}
